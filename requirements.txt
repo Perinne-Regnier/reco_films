@@ -5,4 +5,4 @@ matplotlib==3.5.2
 streamlit==1.9.0
 altair==4.2.0
 plotly==5.8.0
-sklearn==1.1.1
+sklearn==22.1.1
