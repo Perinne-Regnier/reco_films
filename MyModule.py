@@ -12,13 +12,13 @@ import requests
 import matplotlib.image as mpimg
 from IPython.display import Image, HTML
 
-df_1=pd.read_csv('table_nconst_names_1.zip',compression={'method': 'zip'})
-df_2=pd.read_csv('table_nconst_names_2.zip',compression={'method': 'zip'})
-df_3=pd.read_csv('table_nconst_names_3.zip',compression={'method': 'zip'})
-df_4=pd.read_csv('table_nconst_names_4.zip',compression={'method': 'zip'})
-df_5=pd.read_csv('table_nconst_names_5.zip',compression={'method': 'zip'})
-df_6=pd.read_csv('table_nconst_names_6.zip',compression={'method': 'zip'})
-df_7=pd.read_csv('table_nconst_names_7.zip',compression={'method': 'zip'})
+df_1=pd.read_csv('https://github.com/Perinne-Regnier/reco_films/blob/main/table_nconst_names_1.zip?raw=true',compression={'method': 'zip'})
+df_2=pd.read_csv('https://github.com/Perinne-Regnier/reco_films/blob/main/table_nconst_names_2.zip?raw=true',compression={'method': 'zip'})
+df_3=pd.read_csv('https://github.com/Perinne-Regnier/reco_films/blob/main/table_nconst_names_3.zip?raw=true',compression={'method': 'zip'})
+df_4=pd.read_csv('https://github.com/Perinne-Regnier/reco_films/blob/main/table_nconst_names_4.zip?raw=true',compression={'method': 'zip'})
+df_5=pd.read_csv('https://github.com/Perinne-Regnier/reco_films/blob/main/table_nconst_names_5.zip?raw=true',compression={'method': 'zip'})
+df_6=pd.read_csv('https://github.com/Perinne-Regnier/reco_films/blob/main/table_nconst_names_6.zip?raw=true',compression={'method': 'zip'})
+df_7=pd.read_csv('https://github.com/Perinne-Regnier/reco_films/blob/main/table_nconst_names_7.zip?raw=true',compression={'method': 'zip'})
 df_nconst_names=pd.concat([df_1, df_2,df_3, df_4, df_5, df_6, df_7], ignore_index=True)
 
 
